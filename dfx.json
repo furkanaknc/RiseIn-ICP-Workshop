@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "events_backend": {
+      "candid": "src/events_backend/events_backend.did",
+      "package": "events_backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
